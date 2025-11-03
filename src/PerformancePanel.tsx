@@ -1,6 +1,6 @@
 // src/PerformancePanel.tsx
 import React, { useEffect } from 'react';
-import { PerformanceProvider, usePerformanceContext, PerformanceEvent } from './PerformanceContext';
+import { PerformanceProvider, usePerformanceContext } from './PerformanceContext';
 import { useRozeniteDevToolsClient } from '@rozenite/plugin-bridge';
 
 export type PerformanceEvent = {

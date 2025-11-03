@@ -1,5 +1,5 @@
 {
-  "name": "@rozenite/performance-profiler",
+  "name": "rozenite-performance-profiler",
   "version": "0.0.1",
   "description": "It helps to monitor individual component mount and unmount logic with render state info.",
   "type": "module",
@@ -36,5 +36,16 @@
     "react": "*",
     "react-native": "*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARIPRASATH4664/-rozenite-performance-profiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARIPRASATH4664/-rozenite-performance-profiler/issues"
+  },
+  "homepage": "https://github.com/ARIPRASATH4664/-rozenite-performance-profiler#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
