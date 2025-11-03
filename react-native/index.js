@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import { sendMessageToDevTools } from '@rozenite/runtime';
 
-function withPerformanceLogger(Wrapped, screenName = 'Unknown') {
+export function withPerformanceLogger(Wrapped, screenName = 'Unknown') {
   return function PerformanceLoggerHOC(props) {
     const start = useRef(Date.now());
 
@@ -31,5 +31,3 @@ function withPerformanceLogger(Wrapped, screenName = 'Unknown') {
     return <Wrapped {...props} />;
   };
 }
-
-export { withPerformanceLogger }

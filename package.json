@@ -1,6 +1,6 @@
 {
   "name": "rozenite-performance-profiler",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "It helps to monitor individual component mount and unmount logic with render state info.",
   "type": "module",
   "main": "react-native/index.js",
