@@ -3,11 +3,19 @@
   "version": "0.0.1",
   "description": "It helps to monitor individual component mount and unmount logic with render state info.",
   "type": "module",
-  "main": "./dist/react-native.cjs",
+  "main": "react-native/index.js",
   "module": "./dist/react-native.js",
   "types": "./dist/react-native.d.ts",
+  "keywords": [
+    "rozenite",
+    "react-native",
+    "devtools",
+    "performance",
+    "plugin"
+  ],
+  "author": "Ari Prasath",
   "scripts": {
-    "build": "rozenite build",
+    "build": "tsc",
     "dev": "rozenite dev"
   },
   "dependencies": {

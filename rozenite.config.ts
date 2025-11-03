@@ -1,8 +1,13 @@
+import PerformancePanel from './src/PerformancePanel';
+
 export default {
+  name: 'performance-plugin',
+  title: 'Performance Tracker',
   panels: [
     {
-      name: 'Hello world!',
-      source: './src/hello-world.tsx',
+      id: 'performance-panel',
+      label: 'Performance Tracker',
+      component: PerformancePanel,
     },
   ],
 };
