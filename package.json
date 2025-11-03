@@ -4,8 +4,8 @@
   "description": "It helps to monitor individual component mount and unmount logic with render state info.",
   "type": "module",
   "main": "react-native/index.js",
+  "types": "react-native/index.d.ts",
   "module": "./dist/react-native.js",
-  "types": "./dist/react-native.d.ts",
   "keywords": [
     "rozenite",
     "react-native",

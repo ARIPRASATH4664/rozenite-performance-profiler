@@ -1,6 +1,7 @@
 // react-native/index.ts
 import React, { useEffect, useRef } from 'react';
 import { sendMessageToDevTools } from '@rozenite/runtime';
+export { PerformanceProvider } from '../src/PerformanceContext';
 
 export function withPerformanceLogger(Wrapped, screenName = 'Unknown') {
   return function PerformanceLoggerHOC(props) {
